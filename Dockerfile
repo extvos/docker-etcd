@@ -1,4 +1,4 @@
-FROM extvos/alpine
+FROM extvos/alpine:latest
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
 ENV ETCD_VER v3.2.4
 ENV DOWNLOAD_URL https://github.com/coreos/etcd/releases/download
