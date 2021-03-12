@@ -1,6 +1,6 @@
 FROM extvos/alpine:latest
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
-ENV ETCD_VER v3.2.4
+ENV ETCD_VER v3.4.0
 ENV DOWNLOAD_URL https://github.com/coreos/etcd/releases/download
 
 RUN curl -L ${DOWNLOAD_URL}/${ETCD_VER}/etcd-${ETCD_VER}-linux-amd64.tar.gz -o /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz \
